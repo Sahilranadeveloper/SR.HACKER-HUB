@@ -9,9 +9,9 @@ bot.on('message', message =s.{
     var msg = message.content;
     var prefix = "s." //The text before commands, you can put anything that you prefer
 
-    if(message.author.id != "511045081382387722" && message.channel.id === "508219003685175311{
+    if(message.author.id != "511045081382387722" && message.channel.id === "508556419818061824{
         if(msg.startsWith('s.', 0)){
-            if(msg === prefix + "helo" && message.channel.id === "508219003685175311{
+            if(msg === prefix + "helo" && message.channel.id === "508556419818061824{
                 message.channel.send('helo bro!!!!!') // Sends a message to the channel, with the content
             }
             else{
